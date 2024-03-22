@@ -1,0 +1,24 @@
+#hero{
+    padding: 60px 0;
+    background: black;
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        &--btn{
+            display: flex;
+        align-items: center;
+        justify-content: space-between;
+            button{
+                padding: 10px 80px;
+                background: none;
+                border: 2px solid #FF9B04;
+                color: white;
+                font-size: 20px;
+            }
+        }
+        
+        
+    }
+}

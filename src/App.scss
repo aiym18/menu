@@ -1,0 +1,17 @@
+@import "./style/Header.scss";
+@import "./style/Hero.scss";
+@import "./style/AddProduct";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}

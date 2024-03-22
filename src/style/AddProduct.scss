@@ -1,0 +1,32 @@
+#addproduct{
+    padding: 50px 0;
+    background: black;
+    .addproduct{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+        input{
+            margin-top: 20px;
+            padding: 10px 160px 10px 10px;
+            border: 2px solid #FF9B04;
+            background: none;
+            font-size: 20px;
+            border-radius: 10px;
+            color: white;
+            &::placeholder{
+                color: white;
+            }
+        }
+        button{
+            padding: 10px 20px;
+            margin-top: 40px;
+            font-size: 20px;
+            border-radius: 10px;
+            border: 2px solid #FF9B04;
+            background: none;
+            color: white;
+        }
+    }
+}
